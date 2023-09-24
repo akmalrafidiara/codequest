@@ -119,6 +119,8 @@ nav a {
 
 .about_image img {
   width: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
 }
 
 .none {
@@ -314,9 +316,70 @@ footer {
   width: 65px;
 }
 
+.rn {
+  position: absolute;
+  z-index: -11;
+}
 
+.rn1 {
+  left: 200px;
+  top: 300px;
+}
+
+.rn2 {
+  right: 200px;
+  top: 150px;
+}
+
+.rn3 {
+  right: 300px;
+  top: 500px;
+}
+
+.rn4 {
+  left: 300px;
+  top: 800px;
+}
+
+.rn5 {
+  right: -80px;
+  top: 570px;
+}
+
+.rn6 {
+  left: 30px;
+  top: 570px;
+}
+
+.rn7 {
+  left: -30px;
+  top: 1120px;
+}
+
+.rn8 {
+  right: 80px;
+  top: 1120px;
+}
+
+.rn9 {
+  left: -20px;
+  top: 1960px;
+}
+
+.rn10 {
+  right: -100px;
+  top: 2100px;
+}
+
+.rn11 {
+  right: -20px;
+  top: 1350px;
+}
 
 @media screen and (max-width: 768px) {
+  .rn{
+    display: none;
+  }
   header {
     padding: 0 25px;
     margin-top: 10px;
@@ -391,5 +454,5 @@ footer {
   .hadiah .hadiah_content a {
     font-size: .8rem;
   }
-
+  
 }
