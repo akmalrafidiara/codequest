@@ -244,7 +244,73 @@ nav a {
   color: #555;
 }
 
+.hadiah {
+  padding: 50px 0;
+}
 
+.hadiah .container {
+  display: flex;
+  align-items: center;
+}
+
+.hadiah .hadiah_img {
+  flex: 1;
+}
+
+.hadiah .hadiah_img img {
+  width: 100%;
+}
+
+.hadiah .hadiah_content {
+  flex: 1;
+  padding: 0 50px;
+}
+
+.hadiah .hadiah_content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hadiah .hadiah_content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.hadiah .hadiah_content a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f9a826;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.hadiah .hadiah_content a:hover {
+  background-color: #fff;
+  color: #f9a826;
+  border: 1px solid #f9a826;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.footer_content img {
+  width: 65px;
+}
 
 
 
