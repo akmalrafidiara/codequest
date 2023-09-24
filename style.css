@@ -343,14 +343,44 @@ footer {
   }
   .timeline > div {
     flex-direction: column;
+    background-color: #ddd;
   }
   .timeline-item {
     margin-bottom: 50px;
+    margin-top: 20px;
   }
   .timeline-item:before {
-    margin: 0 0 10px 0;
+    position: absolute;
+    margin-top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .timeline-item:last-child {
     margin-bottom: 0;
   }
+
+  .hadiah .container {
+    flex-direction: column;
+  }
+  .hadiah .hadiah_img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .hadiah .hadiah_img img {
+    width: 100%;
+  }
+  .hadiah .hadiah_content {
+    width: 100%;
+    padding: 0;
+  }
+  .hadiah .hadiah_content h2 {
+    font-size: 2rem;
+  }
+  .hadiah .hadiah_content p {
+    font-size: 1rem;
+  }
+  .hadiah .hadiah_content a {
+    font-size: .8rem;
+  }
+  
 }
