@@ -308,6 +308,7 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 15px;
+  text-align: center;
 }
 .footer_content img {
   width: 65px;
@@ -382,5 +383,5 @@ footer {
   .hadiah .hadiah_content a {
     font-size: .8rem;
   }
-  
+
 }
