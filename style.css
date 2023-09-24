@@ -246,6 +246,7 @@ nav a {
 
 .hadiah {
   padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
 }
 
 .hadiah .container {
